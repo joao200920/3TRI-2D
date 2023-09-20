@@ -1,3 +1,3 @@
 # ULTIMO-TRI
-Joao lucas
-Guilherme
+Joao lucas N°17
+Guilherme N°15
