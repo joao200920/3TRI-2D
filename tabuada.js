@@ -8,8 +8,9 @@ frm.addEventListener("submit", (e) =>{
     const numero = Number(frm.inNumero.value)
     let resposta = ""   //variavel do tipo Strimg, para concatenar a resposta 
 //criar um laço de repetição
+
     for(let i = 1; i <=10; i++){
-        resposta =resposta + numero + "x " + i + "=" + (numero * i) +"\n" 
+        resposta = resposta + numero + "x " + i + "=" + (numero * i) +"\n" 
     }
     resp.innerText = resposta 
 })
