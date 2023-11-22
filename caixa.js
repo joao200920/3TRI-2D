@@ -5,6 +5,7 @@ const resp3 = document.querySelector("#outResp3")
  
 frm.addEventListener("submit", (e) =>{
     e.preventDefault()
+
      const saque = Number(frm.inSaque.value)
 
      if (saque % 10 != 0)  {
@@ -29,3 +30,9 @@ frm.addEventListener("submit", (e) =>{
         resp3.innerText = `Notas de R$10: ${notasDez}`
     }
 })
+
+    frm.addEventListener("reset",(e) => {
+        resp1.innerText = " "
+        resp2.innerText = " "
+        resp3.innerText = " "
+    })
